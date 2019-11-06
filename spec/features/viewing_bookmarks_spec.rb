@@ -13,5 +13,6 @@ feature 'Viewing bookmarks' do
       expect(page).to have_content "http://www.amazon.co.uk"
       expect(page).to have_content "http://www.box.co.uk"
       expect(page).to have_content "http://www.ebay.co.uk"
+    end
   end
 end
